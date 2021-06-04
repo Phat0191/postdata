@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alexander Karev",
+      "title": "UI Designer @ SapientRazorfish",
+      "bio": "Born in Atlanta",
+      "email": "alexander@sapientrazorfish.com",
+      "password": "testpassword",
+      "location": "Atlanta, GA"
+    },
+    {
+      "id": 2,
+      "name": "Jonathan Johnson",
+      "title": "Developer @ SapientRazorfish",
+      "bio": "Born in New York",
+      "email": "jonathan@sapientrazorfish.com",
+      "password": "testpassword",
+      "location": "Atlanta, GA"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Milk Tae",
+      "detail_image": "https://thecoffeevn.com/wp-content/uploads/2019/06/H%E1%BB%93ng-tr%C3%A0-S%E1%BB%AFa.png"
+    },
+    {
+      "id": 2,
+      "name": "Coffee",
+      "detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tea",
+      "detail_image": "https://haitratancuong.com/blog/wp-content/uploads/2020/12/tra-english-breakfast-tea.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Smoothie",
+      "detail_image": "https://www.liveeatlearn.com/wp-content/uploads/2020/09/how-to-make-smoothies-vert.jpg"
+    }
+  ],
+
+  "products": [
+  	{
+  		"id": 100,
+      "categories": 1,
+  		"name": "Blonde Roast",
+  		"detail_image": "https://cubes-asia.com/uploads/editer/images/european-specialty-coffee-market-by-pointbleu-design-blog.jpg",
+  		"description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
+  		"price": 5000
+    },
+  	{
+  		"id": 101,
+      "categories": 1,
+  		"name": "Caffe Misto",
+    	"detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg",
+  		"description": "A one-to-one mix of fresh brewed coffee and steamed milk add up to one distinctly delicious coffee drink.",
+  		"price": 1.00
+  	},
+  	{
+  		"id": 102,
+      "categories": 1,
+  		"name": "Decaf Roast",
+  		"detail_image": "https://images.foody.vn/res/g94/936274/prof/s576x330/foody-upload-api-foody-mobile-10-190718112033.jpg",
+  		"description": "Our signature medium roasted coffee with a smooth, balanced and rich flavor, minus the caffeine.",
+  		"price": 1.00
+  	},
+  	{
+  		"id": 103,
+      "categories": 1,
+  		"name": "Featured Dark Roast",
+  		"detail_image": "https://cdn.tgdd.vn/Files/2020/05/09/1254457/tim-hieu-ve-king-coffee-vi-vua-moi-trong-de-che-ca-phe-co-nhung-san-pham-nao-202005091050347002.jpg",
+  		"description": "This full-bodied dark roast coffee has the bold, robust flavors to showcase our roasting and blending artistry.",
+  		"price": 1.00
+  	},
+  	{
+  		"id": 104,
+      "categories": 1,
+  		"name": "Nitro Cold Brew",
+  		"detail_image": "https://d1cavipgdpnjin.cloudfront.net/wp-content/uploads/introduction-to-coffee-saigon-coffee-acadamy-1.jpg",
+  		"description": "Our small-batch cold brew—slow-steeped for a super smooth taste—gets even better. We're infusing it with nitrogen for a naturally sweet flavor and cascading, velvety crema. Perfection is served.",
+  		"price": 1.00
+  	},
+  	{
+  		"id": 105,
+      "categories": 1,
+  		"name": "Nitro Cold Brew with Sweet Cream",
+  		"detail_image": "https://aeonmall-long-bien.com.vn/wp-content/uploads/2021/01/aeon-mall-latte-nong--750x468.jpg",
+  		"description": "Served cold, straight from the tap, our Nitro Cold Brew is topped with a float of house-made vanilla sweet cream. The result is a subtly-sweet cascade of velvety coffee that is more sippable than ever.",
+  		"price": 1.00
+    }
+  ],
+
+  "employees": [
+    {
+      "id": 1,
+      "fristName": "Huyen",
+      "lastName": "Nguyen Thi Thanh",
+      "salary": 3500000,
+      "numberPhone": "0869963501",
+      "email": "huyen.thanhcuteHanoi@gmail.com"
+    }
+  ],
+
+  "bill": [
+    {
+      "id": 1,
+      "userName":"Bui Duc Anh",
+      "list":[
+        {
+          "name": "Caffe Misto"
+        },
+        {
+          "name": "Vanilla Sweet Cream Cold Brew"
+        }
+      ],
+      "price": 40000,
+      "payment": "COD"
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 1,
+      "userName": "Nguyen Ngoc Lan Trinh",
+      "drink":[
+        {
+          "name": "Caffe Misto"
+        },
+        {
+          "name": "Vanilla Sweet Cream Cold Brew"
+        }
+      ],
+      "reminder": "",
+      "shiper": "Tran Van Phat",
+      "price": "100000"
+    },
+    {
+      "id": 1,
+      "userName": "Nguyen Ngoc Lan Trinh",
+      "drink":[
+        {
+          "name": "Caffe Misto"
+        },
+        {
+          "name": "Vanilla Sweet Cream Cold Brew"
+        }
+      ],
+      "reminder": "",
+      "time": "2021-04-05",
+      "shiper": "Nguyen Hong Quan",
+      "price": "100000"
+    }
+  ],
+
+  "admin":[
+    {
+      "username": "admin",
+      "password": "12345"
+    }
+  ],
+
+  "shiper":[
+    {
+      "id": 1,
+      "name": "Tran Van Phat",
+      "amoutOfChuyen": 10,
+      "bienSoXe": "ABC1090",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Hong Quan",
+      "amoutOfChuyen":69,
+      "bienSoXe": "ABC1091",
+      "status": true
+    }
+  ],
+
+  "coffeeShop":[
+    {
+      "nameShop": "CUTEST DAY",
+      "salaryShiper": 5000000,
+      "gmail": "duong.a22@student.passerellesnumeriques.org",
+      "numberphone": "0869963501",
+      "address": "101B Le Huu Trac - Sai Gon - Danang"
+    }
+  ],
+
+  "nofitication":[
+    {
+      "id": 0,
+      "content": "",
+      "time": ""
+    }
+  ]
+  
+}
